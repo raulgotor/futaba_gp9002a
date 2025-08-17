@@ -8,6 +8,8 @@
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/drivers/spi.h>
 #include "gp9002a.h"
+#include <zephyr/logging/log.h>
+LOG_MODULE_REGISTER(my_app);
 //#include "lvgl.h"
 
 void main(void)
